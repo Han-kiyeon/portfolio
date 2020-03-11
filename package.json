@@ -1,0 +1,51 @@
+{
+  "name": "portfolio",
+  "homepage": "https://Han-kiyeon/github.io/portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.10.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-scripts": "3.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "airbnb",
+      "prettier"
+    ],
+    "rules": {
+      "react/prefer-stateless-function": 0,
+      "react/jsx-filename-extension": 0,
+      "react/jsx-one-expression-per-line": 0
+    },
+    "env": {
+      "browser": true,
+      "jest": true
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
